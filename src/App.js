@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock'
+import Toggler from './Toggler'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <h1>Hello, world!</h1>
 
       <Clock />
+          <Toggler />
   </div>
     );
   }
