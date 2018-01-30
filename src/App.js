@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Clock from './Clock'
 
 class App extends Component {
   render() {
@@ -13,9 +14,13 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-      </div>
+          <h1>Hello, world!</h1>
+
+      <Clock />
+  </div>
     );
   }
 }
+
 
 export default App;
